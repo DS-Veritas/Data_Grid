@@ -60,10 +60,12 @@ namespace DataGrid
             DataGridXAML.Items.Add(tempEmployee);
         }
 
+        // GotKeyboardFocus event to make default text disappear on click
+        // Extended WPF Toolkit "Watermark TextBox" can pull off the same trick
         private void TextBoxID_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
             TextBox txtBox = sender as TextBox;
-            if (txtBox.Text == "ID" || txtBox.Text == "Name" || txtBox.Text == "Address" || txtBox.Text == "State" || txtBox.Text == "City")
+            if (txtBox.Text == "ID")
             {
                 txtBox.Text = string.Empty;
             }
@@ -103,6 +105,11 @@ namespace DataGrid
             {
                 txtBox.Text = string.Empty;
             }
+        }
+
+        private void TextBoxName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

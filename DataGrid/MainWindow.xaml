@@ -32,7 +32,7 @@
         </DataGrid>
         <Button x:Name="AddNewEmployeeButton" Content="Add New Employee" HorizontalAlignment="Left" Height="26" Margin="330,418,0,0" VerticalAlignment="Top" Opacity="0.94" Width="130" Click="AddNewEmployeeBN_Clicked"/>
         <TextBox x:Name="TextBoxID" HorizontalAlignment="Left" Margin="335,299,0,0" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxID_GotKeyboardFocus"/>
-        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="335,322,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxName_GotKeyboardFocus"/>
+        <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Margin="335,322,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxName_GotKeyboardFocus" TextChanged="TextBoxName_TextChanged"/>
         <TextBox x:Name="TextBoxState" HorizontalAlignment="Left" Margin="335,368,0,0" Text="State" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxState_GotKeyboardFocus"/>
         <TextBox x:Name="TextBoxCity" HorizontalAlignment="Left" Margin="335,391,0,0" Text="City" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxCity_GotKeyboardFocus"/>
         <TextBox x:Name="TextBoxAddress" HorizontalAlignment="Left" Margin="335,345,0,0" Text="Address" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="TextBoxAddress_GotKeyboardFocus"/>
